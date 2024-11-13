@@ -1,0 +1,31 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+  .:
+    dependencies:
+      '@nativescript/core':
+        specifier: ~8.6.0
+        version: 8.6.0
+      '@nativescript/theme':
+        specifier: ~3.0.2
+        version: 3.0.2
+    devDependencies:
+      '@nativescript/android':
+        specifier: 8.6.2
+        version: 8.6.2
+      '@nativescript/ios':
+        specifier: 8.6.1
+        version: 8.6.1
+      '@nativescript/types':
+        specifier: ~8.6.0
+        version: 8.6.0
+      '@nativescript/webpack':
+        specifier: ~5.0.18
+        version: 5.0.18
+      typescript:
+        specifier: ~5.0.0
+        version: 5.0.4

@@ -1,0 +1,21 @@
+name = "node-starter"
+type = "javascript"
+account_id = ""
+workers_dev = true
+compatibility_date = "2024-01-13"
+
+[build]
+command = "npm run build"
+watch_dir = "src"
+
+[build.upload]
+format = "modules"
+main = "./dist/index.js"
+
+[env.production]
+name = "node-starter-prod"
+route = "api.yourdomain.com/*"
+
+[env.staging]
+name = "node-starter-staging"
+route = "staging.api.yourdomain.com/*"

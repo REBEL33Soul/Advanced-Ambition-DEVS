@@ -1,0 +1,29 @@
+{
+  "appId": "com.advancedambition.devs",
+  "productName": "Advanced Ambition DEVS",
+  "directories": {
+    "output": "dist/desktop"
+  },
+  "files": [
+    "dist/**/*",
+    "package.json"
+  ],
+  "mac": {
+    "category": "public.app-category.developer-tools",
+    "target": ["dmg", "zip"],
+    "icon": "build/icon.icns"
+  },
+  "win": {
+    "target": ["nsis", "portable"],
+    "icon": "build/icon.ico"
+  },
+  "linux": {
+    "target": ["AppImage", "deb"],
+    "category": "Development"
+  },
+  "publish": {
+    "provider": "github",
+    "owner": "REBEL33Soul",
+    "repo": "advanced-ambition-devs"
+  }
+}

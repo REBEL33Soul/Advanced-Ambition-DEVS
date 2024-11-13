@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="Advanced Ambition DEVS" />
+    <GridLayout rows="auto, *, auto">
+        <StackLayout row="0" class="p-20">
+            <Label text="Welcome to Advanced Ambition DEVS" class="h1 text-center"/>
+        </StackLayout>
+        <ScrollView row="1">
+            <StackLayout class="p-20">
+                <Button text="Features" tap="onFeaturesTap" class="btn btn-primary m-b-20"/>
+                <Button text="Settings" tap="onSettingsTap" class="btn btn-outline m-b-20"/>
+                <Button text="About" tap="onAboutTap" class="btn btn-outline"/>
+            </StackLayout>
+        </ScrollView>
+        <Label row="2" text="Version 1.0.0" class="text-center p-10 text-muted"/>
+    </GridLayout>
+</Page>

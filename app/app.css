@@ -1,0 +1,29 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+.btn {
+    font-size: 18;
+    margin: 10;
+}
+
+.h1 {
+    font-size: 24;
+    font-weight: bold;
+    margin-bottom: 20;
+}
+
+.text-muted {
+    color: #666666;
+}
+
+.m-b-20 {
+    margin-bottom: 20;
+}
+
+.p-20 {
+    padding: 20;
+}
+
+.p-10 {
+    padding: 10;
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="Advanced Ambition DEVS" />
+    <StackLayout class="p-20">
+        <Label text="Welcome to Advanced Ambition DEVS" class="h1 text-center"/>
+        <Button text="Test Button" tap="onTap" class="btn btn-primary"/>
+    </StackLayout>
+</Page>

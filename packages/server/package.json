@@ -1,0 +1,23 @@
+{
+  "name": "@advanced-ambition/server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsx build",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@trpc/server": "10.37.1",
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "zod": "3.21.4"
+  },
+  "devDependencies": {
+    "@types/cors": "2.8.13",
+    "@types/express": "4.17.17",
+    "@types/node": "20.4.5",
+    "tsx": "3.12.7",
+    "typescript": "5.1.6"
+  }
+}
